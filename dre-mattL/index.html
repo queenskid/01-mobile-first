@@ -3,22 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+  <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, intial-scale=1">
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" href="vendor/style/normalize.css">
 
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" href="styles/fonts/icons.css">
+  <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel="stylesheet" href="styles/icons.css">
 
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
   <link rel="stylesheet" href="/styles/base.css">
   <link rel="stylesheet" href="/styles/layout.css">
   <link rel="stylesheet" href="/styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+
+  <!-- The css loading order is important, because if the normalize were last then it would reset all the css that we had entered. Icons isn't too important because it just loads the icons that we've selected. But it makes sense to load before the other stylesheets because they cause a bigger load on the system.
+  The base, layout, and module css' are important because they're implemented in order of basic layout and down to the fine details. -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -36,8 +38,8 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <span class="icon-menu"></span>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
