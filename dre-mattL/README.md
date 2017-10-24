@@ -23,12 +23,12 @@ This site consist of one HTMl file and 5 CSS files. We used ico-moon fonts provi
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:-->
 
-10-24-2017 9:33 - Application was initiated with style sheets and link tags.
-10-24-2017 10:02 - Added Icons, Fonts and answered 1st comment
-10-24-2017 10:56 - Base layout complete for CSS
-10-24-2017 11:29 - General CSS layout complete
-10-24-2017 12:02 - Modules CSS file complete
-10-24-2017 12:57 - Finalized computer viewport styling
+- 10-24-2017 9:33 - Application was initiated with style sheets and link tags.
+- 10-24-2017 10:02 - Added Icons, Fonts and answered 1st comment
+- 10-24-2017 10:56 - Base layout complete for CSS
+- 10-24-2017 11:29 - General CSS layout complete
+- 10-24-2017 12:02 - Modules CSS file complete
+- 10-24-2017 12:57 - Finalized computer viewport styling
 
 
 ## Credits and Collaborations
