@@ -1,0 +1,16 @@
+.main-nav:hover ul li {
+  display: block;
+  margin: 3vw 0vw;
+  /*border: 1px solid red;*/
+  margin-left: -9.2vw;
+  list-style: none;
+  border-bottom: #777 solid 1px;
+  padding: 2vw 1vw;
+  font-size: 6.5vw;
+  width: 107%;
+
+}
+
+.main-nav ul {
+  padding-bottom: 3vw;
+}
