@@ -8,10 +8,10 @@
   padding-bottom: 6vw;
 }
 
-[class='icon-menu'] {
+.icon-menu {
   position: absolute;
-  top: 1vw;
-  right: 1vw;
+  top: 0;
+  right: 0;
   font-size: 11vw;
 }
 

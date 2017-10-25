@@ -1,16 +1,24 @@
-.main-nav:hover ul li {
-  display: block;
-  margin: 3vw 0vw;
-  margin-left: -9.2vw;
-  list-style: none;
-  border-bottom: #777 solid 1px;
-  padding: 2vw 1vw;
-  font-size: 6.5vw;
-  width: 107%;
-}
+@media only screen and (max-width: 640px){
 
-.main-nav ul {
-  padding-bottom: 3vw;
+    .main-nav:hover li {
+    display: block;
+    margin: 3vw 0vw;
+    margin-left: -4.5vw;
+    list-style: none;
+    border-bottom: #777 solid 1px;
+    padding: 2vw 1vw;
+    font-size: 6.5vw;
+    width: 100%;
+  }
+  .main-nav:hover ul {
+    padding-bottom: 3vw;
+  }
+  .icon-menu:hover {
+    height: 220px;
+    width: 99.5%;
+    text-align: right;
+    padding-right: 70em;
+  }
 }
 
 @media only screen and (min-width: 640px) {
